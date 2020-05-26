@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "name": "egret_icon_png",
+      "type": "image",
+      "url": "assets/egret_icon.png"
+    },
+    {
+      "name": "description_json",
+      "type": "json",
+      "url": "config/description.json"
+    },
+    {
+      "name": "background1",
+      "type": "image",
+      "url": "assets/background1.jpg"
+    },
+    {
+      "name": "rect",
+      "type": "image",
+      "url": "assets/rect.png"
+    },
+    {
+      "name": "logo",
+      "type": "image",
+      "url": "assets/logo.png"
+    },
+    {
+      "name": "board",
+      "type": "image",
+      "url": "assets/board.png"
+    }
+  ],
+  "groups": [
+    {
+      "keys": "bg_jpg,egret_icon_png,description_json,logo",
+      "name": "preload"
+    },
+    {
+      "name": "game1",
+      "keys": "bg_jpg,egret_icon_png,background1,board,rect,logo"
+    }
+  ]
+}
